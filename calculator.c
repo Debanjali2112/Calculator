@@ -24,7 +24,9 @@ int square(int i) {
 int cube(int i) {
 	return (i*i*i);
 }
-
+int inverse(int i) {
+	return (1/i);
+}	
 int main() {
     int a, b;
     char operation;
@@ -79,7 +81,7 @@ int main() {
             case 'i':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("Will be implemented soon...\n");
+                printf("inerse is %d\n", inverse(a));
                break;
             default:
                 printf("Invalid operation. Please try again.\n");
